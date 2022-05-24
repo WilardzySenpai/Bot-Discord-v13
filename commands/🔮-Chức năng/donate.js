@@ -4,8 +4,8 @@ const { stripIndent } = require('common-tags');
 module.exports = {
     name: 'donate',
     category: '🔮-Chức năng',
-    aliases: ['dnt', 'ungho'],
-    utilisation: '{prefix}avatar',
+    aliases: ['dnt', 'ungho','dn'],
+    utilisation: '{prefix}donate',
     usage: '%donate',
     descriptions: 'Hiển thị ra thông tin donate ủng hộ cho server hoặc cho Bot',
     async run (client, message, args) {
